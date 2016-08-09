@@ -1,18 +1,18 @@
-"","PatientID","PatientGender","PatientDateOfBirth","PatientRace","PatientMaritalStatus","PatientLanguage","PatientPopulationPercentageBelowPoverty"
-"1","03A481F5-B32A-4A91-BD42-43EB78FEBA77","Female","1968-02-07 23:02:38.017","Asian","Single","Unknown",93.23
-"2","0BC491C5-5A45-4067-BD11-A78BEA00D3BE","Female","1921-04-18 01:56:01.807","Unknown","Married","English",18.05
-"3","1A40AF35-C6D4-4D46-B475-A15D84E8A9D5","Male","1949-01-10 15:37:35.543","White","Married","English",11.25
-"4","3B11D6B3-A36A-4B69-A437-C29BF425A941","Female","1954-05-18 10:19:19.110","Asian","Separated","English",10.8
-"5","66154E24-D3EE-4311-89DB-6195278F9B3C","Female","1944-08-26 13:03:24.297","White","Divorced","English",19.49
-"6","6D8008ED-D623-4BE4-B93B-335F9797C170","Female","1978-03-14 13:41:28.337","White","Married","Icelandic",14.81
-"7","7A7332AD-88B1-4848-9356-E5260E477C59","Female","1944-12-01 06:30:01.543","Unknown","Married","English",19.46
-"8","886B5885-1EE2-49F3-98D5-A2F02EB8A9D4","Female","1970-04-27 09:15:11.080","Unknown","Married","English",10.35
-"9","B70E5A76-F2BC-41E4-B037-CD4D9ABA0967","Male","1962-12-15 01:59:01.737","White","Single","Icelandic",13.1
-"10","C5D09468-574F-4802-B56F-DB38F4EB1687","Male","1939-07-07 19:39:49.753","African American","Married","Icelandic",10.87
-"11","CC9CDA72-B37A-4F8F-AFE4-B08F56A183BE","Female","1942-04-14 14:01:01.130","Asian","Married","Spanish",14.15
-"12","CD2ADB1B-97F7-4EF6-BC5C-3E0EC562A06F","Female","1963-04-16 08:54:08.647","White","Single","Icelandic",11.16
-"13","DCE5AEB8-6DB9-4106-8AE4-02CCC5C23741","Female","1967-11-09 08:14:51.143","White","Single","Unknown",16.43
-"14","DDC0BC57-7A4E-4E02-9282-177750B74FBC","Male","1921-03-26 14:38:51.803","White","Single","English",18.41
-"15","E5478913-6819-4977-BB11-4C8B61175B56","Female","1980-03-21 13:08:56.867","White","Single","English",12.92
-"16","EA7C2F0F-DA1C-4CE8-9700-4BB1FC7AF3FB","Male","1969-01-05 00:15:09.627","Unknown","Married","English",3.3
-"17","F0B53A2C-98CA-415D-B928-E3FD0E52B22A","Male","1950-06-20 10:31:18.337","African American","Married","English",14.87
+PatientID,PatientGender,PatientDateOfBirth,PatientRace,PatientMaritalStatus,PatientLanguage,PatientPopulationPercentageBelowPoverty
+03A481F5-B32A-4A91-BD42-43EB78FEBA77,Female,02:38.0,Asian,Single,Unknown,93.23
+0BC491C5-5A45-4067-BD11-A78BEA00D3BE,Female,56:01.8,Unknown,Married,English,18.05
+1A40AF35-C6D4-4D46-B475-A15D84E8A9D5,Male,37:35.5,White,Married,English,11.25
+3B11D6B3-A36A-4B69-A437-C29BF425A941,Female,19:19.1,Asian,Separated,English,10.8
+66154E24-D3EE-4311-89DB-6195278F9B3C,Female,03:24.3,White,Divorced,English,19.49
+6D8008ED-D623-4BE4-B93B-335F9797C170,Female,41:28.3,White,Married,Icelandic,14.81
+7A7332AD-88B1-4848-9356-E5260E477C59,Female,30:01.5,Unknown,Married,English,19.46
+886B5885-1EE2-49F3-98D5-A2F02EB8A9D4,Female,15:11.1,Unknown,Married,English,10.35
+B70E5A76-F2BC-41E4-B037-CD4D9ABA0967,Male,59:01.7,White,Single,Icelandic,13.1
+C5D09468-574F-4802-B56F-DB38F4EB1687,Male,39:49.8,African American,Married,Icelandic,10.87
+CC9CDA72-B37A-4F8F-AFE4-B08F56A183BE,Female,01:01.1,Asian,Married,Spanish,14.15
+CD2ADB1B-97F7-4EF6-BC5C-3E0EC562A06F,Female,54:08.6,White,Single,Icelandic,11.16
+DCE5AEB8-6DB9-4106-8AE4-02CCC5C23741,Female,14:51.1,White,Single,Unknown,16.43
+DDC0BC57-7A4E-4E02-9282-177750B74FBC,Male,38:51.8,White,Single,English,18.41
+E5478913-6819-4977-BB11-4C8B61175B56,Female,08:56.9,White,Single,English,12.92
+EA7C2F0F-DA1C-4CE8-9700-4BB1FC7AF3FB,Male,15:09.6,Unknown,Married,English,3.3
+F0B53A2C-98CA-415D-B928-E3FD0E52B22A,Male,31:18.3,African American,Married,English,14.87
