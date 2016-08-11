@@ -1,0 +1,4 @@
+https://hostpresto.com/community/tutorials/how-to-install-apache-cassandra-on-ubuntu-14.04/
+
+
+https://academy.datastax.com/downloads/download-previous-versions#dl-opscenter
