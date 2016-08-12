@@ -29,6 +29,19 @@ sudo nano cassandra.yaml
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+cqlsh> CREATE KEYSPACE NTSkeyspace WITH REPLICATION = { 'class' : 'NetworkTopologyStrategy', 'datacenter1' : 1 };
+cqlsh> SELECT * FROM system.schema_keyspaces;
+
+ keyspace_name      | durable_writes | strategy_class                                       | strategy_options
+--------------------+----------------+------------------------------------------------------+----------------------------
+        system_auth |           True |          org.apache.cassandra.locator.SimpleStrategy | {"replication_factor":"1"}
+        ntskeyspace |           True | org.apache.cassandra.locator.NetworkTopologyStrategy |        {"datacenter1":"1"}
+ system_distributed |           True |          org.apache.cassandra.locator.SimpleStrategy | {"replication_factor":"3"}
+             system |           True |           org.apache.cassandra.locator.LocalStrategy |                         {}
+      system_traces |           True |          org.apache.cassandra.locator.SimpleStrategy | {"replication_factor":"2"}
+
+(5 rows)
+
 cqlsh> CREATE TABLE ntskeyspace.xx ( empID int PRIMARY KEY, deptID int, first_name text, last_name text );
 cqlsh> INSERT INTO ntskeyspace.xx (empID, deptID, first_name, last_name) VALUES (104, 15, 'jane', 'smith');
 cqlsh> SELECT * FROM ntskeyspace.xx;
