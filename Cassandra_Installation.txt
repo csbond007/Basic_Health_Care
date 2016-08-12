@@ -2,3 +2,6 @@ https://hostpresto.com/community/tutorials/how-to-install-apache-cassandra-on-ub
 
 
 https://academy.datastax.com/downloads/download-previous-versions#dl-opscenter
+
+Initializing a multiple node cluster (single data center)
+https://docs.datastax.com/en/cassandra/3.0/cassandra/initialize/initSingleDS.html
