@@ -54,3 +54,4 @@ cqlsh> SELECT * FROM ntskeyspace.xx;
 cqlsh> 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
+http://www.tutorialspoint.com/cassandra/cassandra_quick_guide.htm
