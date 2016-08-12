@@ -18,3 +18,26 @@ https://docs.datastax.com/en/cassandra/3.0/cassandra/architecture/archSnitchesAb
 Using CQL
 https://docs.datastax.com/en/cql/3.3/cql/cql_using/useAboutCQL.html
 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Configuring Gossip Setting
+https://docs.datastax.com/en/cassandra/3.0/cassandra/configuration/configGossipSettings.html
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+/etc/cassandra
+sudo nano cassandra.yaml
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+cqlsh> CREATE TABLE ntskeyspace.xx ( empID int PRIMARY KEY, deptID int, first_name text, last_name text );
+cqlsh> INSERT INTO ntskeyspace.xx (empID, deptID, first_name, last_name) VALUES (104, 15, 'jane', 'smith');
+cqlsh> SELECT * FROM ntskeyspace.xx;
+
+ empid | deptid | first_name | last_name
+-------+--------+------------+-----------
+   104 |     15 |       jane |     smith
+
+(1 rows)
+cqlsh> 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
