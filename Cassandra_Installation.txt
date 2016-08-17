@@ -59,6 +59,12 @@ http://www.tutorialspoint.com/cassandra/cassandra_quick_guide.htm
 
 Steps for change the cluster Name:
 
+sudo chmod 750 /var/run/cassandra
+
+sudo chown -R cassandra /var/lib/cassandra
+
+sudo chown -R cassandra /var/log/cassandra 
+
 sudo service cassandra status
 
 sudo service cassandra stop
@@ -69,7 +75,7 @@ sudo rm -rf /var/lib/cassandra/data/system/*
 
 sudo service cassandra restart
 
-sudo chmod 750 /var/run/cassandra
+
 
 
 
