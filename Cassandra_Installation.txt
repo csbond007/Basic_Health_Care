@@ -69,6 +69,7 @@ sudo rm -rf /var/lib/cassandra/data/system/*
 
 sudo service cassandra restart
 
+sudo chmod 750 /var/run/cassandra
 
 
 
