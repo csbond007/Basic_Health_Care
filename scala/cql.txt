@@ -1,0 +1,21 @@
+CREATE TABLE songs (
+  song_id uuid,
+  title varchar,
+  album varchar,
+  artist varchar,
+  PRIMARY KEY (song_id)
+);
+
+
+CREATE TABLE songs_by_artist (
+  song_id uuid,
+  title varchar,
+  album varchar,
+  artist varchar,
+  PRIMARY KEY (song_id)
+);
+
+CREATE INDEX songs_by_artist ON test.songs_by_artist (artist);
+
+
+
