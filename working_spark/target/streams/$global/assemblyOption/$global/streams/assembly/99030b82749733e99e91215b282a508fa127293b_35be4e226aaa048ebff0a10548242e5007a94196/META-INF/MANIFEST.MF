@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Export-Package: io.netty.buffer;uses:="io.netty.util";version="4.0.37.
+ Final"
+Implementation-Title: Netty/Buffer
+Implementation-Version: 4.0.37.Final
+Built-By: norman
+Tool: Bnd-2.1.0.20130426-122213
+Bundle-Name: Netty/Buffer
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Netty Project
+Implementation-Vendor: The Netty Project
+Implementation-Vendor-Id: io.netty
+Bundle-Version: 4.0.37.Final
+Build-Jdk: 1.7.0_85
+Bnd-LastModified: 1465322889147
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-Description: Netty is an asynchronous event-driven network appl
+ ication framework for    rapid development of maintainable high perfo
+ rmance protocol servers and    clients.
+Bundle-SymbolicName: io.netty.buffer
+Bundle-DocURL: http://netty.io/
+Import-Package: io.netty.util;version="[4.0,5)",io.netty.util.concurre
+ nt;version="[4.0,5)",io.netty.util.internal;version="[4.0,5)",io.nett
+ y.util.internal.logging;version="[4.0,5)",org.eclipse.jetty.npn;versi
+ on="[1,2)";resolution:=optional,org.eclipse.jetty.alpn;version="[1,2)
+ ";resolution:=optional,sun.nio.ch;resolution:=optional
+Archiver-Version: Plexus Archiver
+

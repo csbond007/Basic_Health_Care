@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: enebo
+Build-Jdk: 1.7.0_79
+Main-Class: com.kenai.jffi.Main
+

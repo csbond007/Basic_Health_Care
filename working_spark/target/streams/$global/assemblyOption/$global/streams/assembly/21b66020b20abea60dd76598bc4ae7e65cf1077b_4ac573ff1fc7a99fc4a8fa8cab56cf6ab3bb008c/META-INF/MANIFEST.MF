@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Export-Package: io.netty.bootstrap;uses:="io.netty.channel,io.netty.ut
+ il";version="4.0.37.Final",io.netty.channel;uses:="io.netty.buffer,io
+ .netty.util,io.netty.util.concurrent";version="4.0.37.Final",io.netty
+ .channel.embedded;uses:="io.netty.channel";version="4.0.37.Final",io.
+ netty.channel.group;uses:="io.netty.channel,io.netty.util.concurrent"
+ ;version="4.0.37.Final",io.netty.channel.local;uses:="io.netty.channe
+ l,io.netty.util.concurrent";version="4.0.37.Final",io.netty.channel.n
+ io;uses:="io.netty.buffer,io.netty.channel,io.netty.util,io.netty.uti
+ l.concurrent";version="4.0.37.Final",io.netty.channel.oio;uses:="io.n
+ etty.buffer,io.netty.channel";version="4.0.37.Final",io.netty.channel
+ .pool;uses:="io.netty.bootstrap,io.netty.channel,io.netty.util.concur
+ rent";version="4.0.37.Final",io.netty.channel.socket;uses:="io.netty.
+ buffer,io.netty.channel,io.netty.util";version="4.0.37.Final",io.nett
+ y.channel.socket.nio;uses:="io.netty.buffer,io.netty.channel,io.netty
+ .channel.nio,io.netty.channel.socket";version="4.0.37.Final",io.netty
+ .channel.socket.oio;uses:="io.netty.buffer,io.netty.channel,io.netty.
+ channel.oio,io.netty.channel.socket";version="4.0.37.Final"
+Implementation-Title: Netty/Transport
+Implementation-Version: 4.0.37.Final
+Built-By: norman
+Tool: Bnd-2.1.0.20130426-122213
+Bundle-Name: Netty/Transport
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Netty Project
+Implementation-Vendor: The Netty Project
+Implementation-Vendor-Id: io.netty
+Bundle-Version: 4.0.37.Final
+Build-Jdk: 1.7.0_85
+Bnd-LastModified: 1465322986670
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-Description: Netty is an asynchronous event-driven network appl
+ ication framework for    rapid development of maintainable high perfo
+ rmance protocol servers and    clients.
+Bundle-SymbolicName: io.netty.transport
+Bundle-DocURL: http://netty.io/
+Import-Package: io.netty.buffer;version="[4.0,5)",io.netty.util;versio
+ n="[4.0,5)",io.netty.util.concurrent;version="[4.0,5)",io.netty.util.
+ internal;version="[4.0,5)",io.netty.util.internal.logging;version="[4
+ .0,5)",org.eclipse.jetty.npn;version="[1,2)";resolution:=optional,sun
+ .nio.ch;resolution:=optional,org.eclipse.jetty.alpn;version="[1,2)";r
+ esolution:=optional
+Archiver-Version: Plexus Archiver
+

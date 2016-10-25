@@ -1,0 +1,46 @@
+Manifest-Version: 1.0
+Export-Package: io.netty.handler.codec;uses:="io.netty.buffer,io.netty
+ .channel,io.netty.util";version="4.0.37.Final",io.netty.handler.codec
+ .base64;uses:="io.netty.buffer,io.netty.channel,io.netty.handler.code
+ c";version="4.0.37.Final",io.netty.handler.codec.bytes;uses:="io.nett
+ y.buffer,io.netty.channel,io.netty.handler.codec";version="4.0.37.Fin
+ al",io.netty.handler.codec.compression;uses:="io.netty.buffer,io.nett
+ y.channel,io.netty.handler.codec";version="4.0.37.Final",io.netty.han
+ dler.codec.marshalling;uses:="io.netty.buffer,io.netty.channel,io.net
+ ty.handler.codec,org.jboss.marshalling";version="4.0.37.Final",io.net
+ ty.handler.codec.protobuf;uses:="com.google.protobuf,io.netty.buffer,
+ io.netty.channel,io.netty.handler.codec";version="4.0.37.Final",io.ne
+ tty.handler.codec.serialization;uses:="io.netty.buffer,io.netty.chann
+ el,io.netty.handler.codec";version="4.0.37.Final",io.netty.handler.co
+ dec.string;uses:="io.netty.buffer,io.netty.channel,io.netty.handler.c
+ odec";version="4.0.37.Final"
+Implementation-Title: Netty/Codec
+Implementation-Version: 4.0.37.Final
+Built-By: norman
+Tool: Bnd-2.1.0.20130426-122213
+Bundle-Name: Netty/Codec
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Netty Project
+Implementation-Vendor: The Netty Project
+Implementation-Vendor-Id: io.netty
+Bundle-Version: 4.0.37.Final
+Build-Jdk: 1.7.0_85
+Bnd-LastModified: 1465323061291
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-Description: Netty is an asynchronous event-driven network appl
+ ication framework for    rapid development of maintainable high perfo
+ rmance protocol servers and    clients.
+Bundle-SymbolicName: io.netty.codec
+Bundle-DocURL: http://netty.io/
+Import-Package: com.google.protobuf;version="[2.5,3)";resolution:=opti
+ onal,com.jcraft.jzlib;resolution:=optional,io.netty.buffer;version="[
+ 4.0,5)",io.netty.channel;version="[4.0,5)",io.netty.channel.socket;ve
+ rsion="[4.0,5)",io.netty.util;version="[4.0,5)",io.netty.util.concurr
+ ent;version="[4.0,5)",io.netty.util.internal;version="[4.0,5)",io.net
+ ty.util.internal.logging;version="[4.0,5)",org.jboss.marshalling;reso
+ lution:=optional,sun.nio.ch;resolution:=optional,org.eclipse.jetty.np
+ n;version="[1,2)";resolution:=optional,org.eclipse.jetty.alpn;version
+ ="[1,2)";resolution:=optional
+Archiver-Version: Plexus Archiver
+

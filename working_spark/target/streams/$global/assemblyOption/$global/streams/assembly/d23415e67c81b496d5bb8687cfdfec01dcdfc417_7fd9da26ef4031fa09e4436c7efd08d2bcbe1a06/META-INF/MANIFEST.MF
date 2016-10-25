@@ -1,0 +1,50 @@
+Manifest-Version: 1.0
+Export-Package: io.netty.handler.ipfilter;uses:="io.netty.channel";ver
+ sion="4.0.37.Final",io.netty.handler.logging;uses:="io.netty.buffer,i
+ o.netty.channel,io.netty.util.internal.logging";version="4.0.37.Final
+ ",io.netty.handler.ssl;uses:="io.netty.buffer,io.netty.channel,io.net
+ ty.handler.codec,io.netty.util,io.netty.util.concurrent,javax.crypto,
+ javax.net.ssl";version="4.0.37.Final",io.netty.handler.ssl.util;uses:
+ ="javax.net.ssl";version="4.0.37.Final",io.netty.handler.stream;uses:
+ ="io.netty.buffer,io.netty.channel";version="4.0.37.Final",io.netty.h
+ andler.timeout;uses:="io.netty.channel";version="4.0.37.Final",io.net
+ ty.handler.traffic;uses:="io.netty.channel,io.netty.util.concurrent";
+ version="4.0.37.Final"
+Implementation-Title: Netty/Handler
+Implementation-Version: 4.0.37.Final
+Built-By: norman
+Tool: Bnd-2.1.0.20130426-122213
+Bundle-Name: Netty/Handler
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Netty Project
+Implementation-Vendor: The Netty Project
+Implementation-Vendor-Id: io.netty
+Bundle-Version: 4.0.37.Final
+Build-Jdk: 1.7.0_85
+Bnd-LastModified: 1465323118915
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-Description: Netty is an asynchronous event-driven network appl
+ ication framework for    rapid development of maintainable high perfo
+ rmance protocol servers and    clients.
+Bundle-SymbolicName: io.netty.handler
+Bundle-DocURL: http://netty.io/
+Import-Package: sun.security.util;resolution:=optional,sun.security.x5
+ 09;resolution:=optional,org.eclipse.jetty.npn;version="[1,2)";resolut
+ ion:=optional,org.eclipse.jetty.alpn;version="[1,2)";resolution:=opti
+ onal,io.netty.buffer;version="[4.0,5)",io.netty.channel;version="[4.0
+ ,5)",io.netty.handler.codec;version="[4.0,5)",io.netty.handler.codec.
+ base64;version="[4.0,5)",io.netty.util;version="[4.0,5)",io.netty.uti
+ l.concurrent;version="[4.0,5)",io.netty.util.internal;version="[4.0,5
+ )",io.netty.util.internal.logging;version="[4.0,5)",javax.crypto,java
+ x.crypto.spec,javax.net.ssl,javax.security.auth.x500,javax.security.c
+ ert,org.apache.tomcat.jni;version="[1.1,2)";resolution:=optional,org.
+ bouncycastle.asn1.x500;version="[1.50,2)";resolution:=optional,org.bo
+ uncycastle.cert;version="[1.50,2)";resolution:=optional,org.bouncycas
+ tle.cert.jcajce;version="[1.50,2)";resolution:=optional,org.bouncycas
+ tle.jce.provider;version="[1.50,2)";resolution:=optional,org.bouncyca
+ stle.operator;version="[1.50,2)";resolution:=optional,org.bouncycastl
+ e.operator.jcajce;version="[1.50,2)";resolution:=optional,sun.nio.ch;
+ resolution:=optional
+Archiver-Version: Plexus Archiver
+

@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1400919823334
+Bundle-DocURL: http://asm.objectweb.org
+Bundle-ManifestVersion: 2
+Bundle-Name: ASM commons classes
+Bundle-RequiredExecutionEnvironment: J2SE-1.3
+Bundle-SymbolicName: org.objectweb.asm.commons
+Bundle-Vendor: France Telecom R&D
+Bundle-Version: 5.0.3
+Created-By: 1.8.0 (Oracle Corporation)
+Export-Package: org.objectweb.asm.commons;uses:="org.objectweb.asm,org.o
+ bjectweb.asm.tree,org.objectweb.asm.signature";version="5.0.3"
+Implementation-Title: ASM commons classes
+Implementation-Vendor: France Telecom R&D
+Implementation-Version: 5.0.3
+Import-Package: org.objectweb.asm;version:="[5.0.3,5.0.3]",org.objectweb
+ .asm.signature;version:="[5.0.3,5.0.3]",org.objectweb.asm.tree;version:
+ ="[5.0.3,5.0.3]"
+Tool: Bnd-1.50.0

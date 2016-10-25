@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Export-Package: io.netty.util;version="4.0.37.Final",io.netty.util.col
+ lection;version="4.0.37.Final",io.netty.util.concurrent;uses:="io.net
+ ty.util.internal";version="4.0.37.Final",io.netty.util.internal;uses:
+ ="io.netty.util,io.netty.util.concurrent,javassist,javax.security.cer
+ t";version="4.0.37.Final",io.netty.util.internal.chmv8;uses:="io.nett
+ y.util.internal";version="4.0.37.Final",io.netty.util.internal.loggin
+ g;version="4.0.37.Final"
+Implementation-Title: Netty/Common
+Implementation-Version: 4.0.37.Final
+Built-By: norman
+Tool: Bnd-2.1.0.20130426-122213
+Bundle-Name: Netty/Common
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Netty Project
+DynamicImport-Package: *
+Implementation-Vendor: The Netty Project
+Implementation-Vendor-Id: io.netty
+Bundle-Version: 4.0.37.Final
+Build-Jdk: 1.7.0_85
+Bnd-LastModified: 1465322824082
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-Description: Netty is an asynchronous event-driven network appl
+ ication framework for    rapid development of maintainable high perfo
+ rmance protocol servers and    clients.
+Bundle-SymbolicName: io.netty.common
+Bundle-DocURL: http://netty.io/
+Import-Package: sun.misc;resolution:=optional,javassist;version="[3.19
+ ,4)";resolution:=optional,javax.security.cert,org.apache.commons.logg
+ ing;version="[1.1,2)";resolution:=optional,org.apache.log4j;version="
+ [1.2,2)";resolution:=optional,org.apache.logging.log4j;version="[2.3,
+ 3)";resolution:=optional,org.slf4j;version="[1.7,2)";resolution:=opti
+ onal,org.slf4j.helpers;version="[1.7,2)";resolution:=optional,org.ecl
+ ipse.jetty.alpn;version="[1,2)";resolution:=optional,sun.nio.ch;resol
+ ution:=optional,org.eclipse.jetty.npn;version="[1,2)";resolution:=opt
+ ional
+Archiver-Version: Plexus Archiver
+

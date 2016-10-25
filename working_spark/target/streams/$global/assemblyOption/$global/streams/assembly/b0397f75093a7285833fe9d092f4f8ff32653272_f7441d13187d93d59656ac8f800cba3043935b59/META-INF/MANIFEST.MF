@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven Bundle Plugin
+Built-By: enebo
+Build-Jdk: 1.7.0_79
+Bnd-LastModified: 1453222778455
+Bundle-Description: Common cross-project/cross-platform POSIX APIs
+Bundle-License: http://www-128.ibm.com/developerworks/library/os-cpl.h
+ tml, http://www.gnu.org/copyleft/gpl.html, http://www.gnu.org/license
+ s/lgpl.html
+Bundle-ManifestVersion: 2
+Bundle-Name: jnr-posix
+Bundle-SymbolicName: com.github.jnr.posix
+Bundle-Version: 3.0.27
+Export-Package: jnr.posix;version="3.0.27",jnr.posix.util;version="3.0
+ .27",jnr.posix.windows;version="3.0.27"
+Ignore-Package: sun.misc
+Implementation-Title: JNA-POSIX
+Implementation-Version: 0.5
+Import-Package: jnr.constants,jnr.constants.platform,jnr.constants.pla
+ tform.windows,jnr.ffi;version="[2.0,3)",jnr.ffi.annotations;version="
+ [2.0,3)",jnr.ffi.byref;version="[2.0,3)",jnr.ffi.mapper;version="[2.0
+ ,3)",jnr.ffi.provider;version="[2.0,3)",jnr.ffi.types;version="[2.0,3)"
+Tool: Bnd-1.50.0
+
