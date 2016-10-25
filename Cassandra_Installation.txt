@@ -1,0 +1,81 @@
+https://hostpresto.com/community/tutorials/how-to-install-apache-cassandra-on-ubuntu-14.04/
+
+
+https://academy.datastax.com/downloads/download-previous-versions#dl-opscenter
+
+Initializing a multiple node cluster (single data center)
+https://docs.datastax.com/en/cassandra/3.0/cassandra/initialize/initSingleDS.html
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Internode communications (gossip)
+https://docs.datastax.com/en/cassandra/3.0/cassandra/architecture/archGossipAbout.html
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Snitches
+https://docs.datastax.com/en/cassandra/3.0/cassandra/architecture/archSnitchesAbout.html
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using CQL
+https://docs.datastax.com/en/cql/3.3/cql/cql_using/useAboutCQL.html
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Configuring Gossip Setting
+https://docs.datastax.com/en/cassandra/3.0/cassandra/configuration/configGossipSettings.html
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+/etc/cassandra
+sudo nano cassandra.yaml
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+cqlsh> CREATE KEYSPACE NTSkeyspace WITH REPLICATION = { 'class' : 'NetworkTopologyStrategy', 'datacenter1' : 1 };
+cqlsh> SELECT * FROM system.schema_keyspaces;
+
+ keyspace_name      | durable_writes | strategy_class                                       | strategy_options
+--------------------+----------------+------------------------------------------------------+----------------------------
+        system_auth |           True |          org.apache.cassandra.locator.SimpleStrategy | {"replication_factor":"1"}
+        ntskeyspace |           True | org.apache.cassandra.locator.NetworkTopologyStrategy |        {"datacenter1":"1"}
+ system_distributed |           True |          org.apache.cassandra.locator.SimpleStrategy | {"replication_factor":"3"}
+             system |           True |           org.apache.cassandra.locator.LocalStrategy |                         {}
+      system_traces |           True |          org.apache.cassandra.locator.SimpleStrategy | {"replication_factor":"2"}
+
+(5 rows)
+
+cqlsh> CREATE TABLE ntskeyspace.xx ( empID int PRIMARY KEY, deptID int, first_name text, last_name text );
+cqlsh> INSERT INTO ntskeyspace.xx (empID, deptID, first_name, last_name) VALUES (104, 15, 'jane', 'smith');
+cqlsh> SELECT * FROM ntskeyspace.xx;
+
+ empid | deptid | first_name | last_name
+-------+--------+------------+-----------
+   104 |     15 |       jane |     smith
+
+(1 rows)
+cqlsh> 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+http://www.tutorialspoint.com/cassandra/cassandra_quick_guide.htm
+
+
+Steps for change the cluster Name:
+
+sudo chmod 750 /var/run/cassandra
+
+sudo chown -R cassandra /var/lib/cassandra
+
+sudo chown -R cassandra /var/log/cassandra 
+
+sudo service cassandra status
+
+sudo service cassandra stop
+
+sudo  gedit /etc/cassandra/cassandra.yaml
+
+sudo rm -rf /var/lib/cassandra/data/system/*
+
+sudo service cassandra restart
+
+
+
+
+
